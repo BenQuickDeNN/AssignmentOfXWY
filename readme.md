@@ -36,3 +36,26 @@ https://developer.nvidia.com/zh-cn/cuda-toolkit
 3. 调用核函数计算
 4. 将计算结果从GPU内存传回host端内存
 5. 打印计算结果
+
+# 第二、三周作业（2020.11.23-2020.12.6）- 基础理论
+### 1. 读陈国良的《并行计算——结构、算法、编程》的第一到第七章，并解释下列名词
+* 计算密集型应用
+* 数据密集型应用
+* 对称多处理机（SMP）
+* NUMA（Non Uniform Memory Access）
+* 流水线（Pipelining）
+* 加速比
+* 计算访存比
+* 可扩展性（Scalability）
+* Benchmark
+* 数值计算
+* 任务划分
+* 并行通信
+* 域分解
+* 功能分解
+* 负载均衡
+
+![book1](image/book1.jpg)
+
+### 2. 根据毕设任务书要求自行组织学习和动手实践
+可在[超算习堂](https://www.easyhpc.net)找到HPC领域的课程和编程题，建议完成里面的OpenMP编程实训和CUDA编程实训
